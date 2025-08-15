@@ -30,9 +30,10 @@ from commands.lock import lock
 from commands.tagall import tagall
 from commands.welcome import add_handler as add_welcome_handler
 import time
+
 import os
 
-TOKEN = os.getenv("TELEGRAM_TOKEN", "METS_LE_TOKEN_DE_TON_BOT_ICI")
+TOKEN = os.getenv("TELEGRAM_TOKEN", "7433451961:AAFqCDFtsVVhghwA3V77I0i3QA2-gyAerl8")
 PORT = int(os.environ.get("PORT", 10000))
 
 logging.basicConfig(
