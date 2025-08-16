@@ -33,7 +33,7 @@ import time
 
 import os
 
-TOKEN = os.getenv("TELEGRAM_TOKEN", "7433451961:AAFqCDFtsVVhghwA3V77I0i3QA2-gyAerl8")
+TOKEN = os.getenv("8299095589:AAE-UVXGLPPl8OBQZ-0s4aKbrxecs-vKbWM", "7433451961:AAFqCDFtsVVhghwA3V77I0i3QA2-gyAerl8")
 PORT = int(os.environ.get("PORT", 10000))
 
 logging.basicConfig(
